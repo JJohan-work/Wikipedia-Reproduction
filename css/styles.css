@@ -1,0 +1,42 @@
+body{
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row>div {
+  border: 1px solid red;
+}
+.card {
+  display: flex;
+}
+.alert {
+  height: 2em;
+  padding-top: 0;
+  font-weight: bold;
+}
+
+#footer-info {
+
+  display: flex;
+
+}
+footer {
+  font-size: 0.75em;
+  font-family: sans-serif;
+  padding: 15px;
+
+}
+footer>ul>li {
+  display: inline;
+  padding-right: 1em;
+  left: 0;
+}
+
+#wikimedia {
+  position: absolute;
+  right: 0;
+}
+
