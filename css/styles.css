@@ -39,7 +39,8 @@ h3 {
 #rock,
 #capitol,
 #bat,
-#fillmore {
+#fillmore,
+#Covent {
     float: right;
     display: inline-block;
     width: 143px;
@@ -58,13 +59,17 @@ h3 {
     margin: 0px 18px 5px 20px;
 }
 
+#Covent {
+    margin: 0px 18px 5px 20px;
+}
+
 .tinytext {
     font-size: 12px;
 }
 
 #rock span,
 #capitol span,
-#bat span {
+#bat span #Covent span {
     display: block;
     width: 100%;
 }
@@ -101,7 +106,7 @@ h3 {
     background-color: #e5c0f3;
 }
 
-#row-1>.col-6>p {
+.defaulttext {
     font: sans-serif;
     font-size: 13.3px;
 }
