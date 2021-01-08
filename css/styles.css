@@ -1,85 +1,121 @@
-body{
-  background-color: whitesmoke;
-
+body {
+    background-color: #ffffff;
 }
 
-header {
-  border: 5px solid red;
-}
+.alert {}
 
 main {
-  margin-top: 0;
+    margin-top: 0;
 }
-.container {
-  border: 2px solid rgb(183, 225, 253);
-  margin-left:200px;
-  width: 100%;
 
+.container {
+    border: 2px solid rgb(183, 225, 253);
+    border-right: 0px;
+    margin-left: 200px;
+    width: auto;
+}
+
+.row {
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 #row-1 {
-  border: 5px solid red;
+    border: 1px solid rgba(200, 200, 200, 2);
+    background-color: whitesmoke;
 }
-#row1>.col-6 p {
-  font-size: 13.3px;
-  color: red;
+
+#row-1>.col-6>p,
+h3 {
+    text-align: center;
+    color: darkblue;
 }
+
+#bat {
+    float: left;
+    margin: 5px 20px 5px 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+#bat>img {
+    width: 110%;
+}
+
+#bat span {
+    display: block;
+}
+
+.green>* {
+    background-color: #CEF2E0;
+    font-size: 14px;
+}
+
+.green .alert {
+    background-color: #7dfaab;
+}
+
+#row-1>.col-6>p {
+    font: sans-serif;
+    font-size: 13.3px;
+}
+
+#row-1>.col-2 {}
+
 #row-2 {
-  border: 5px solid blue;
+    border: 0px solid blue;
 }
 
 #row-3 {
-  border: 5px solid blueviolet;
+    border: 0px solid blueviolet;
 }
 
 #row-4 {
-  border: 5px solid orangered;
+    border: 0px solid orangered;
 }
 
 .row>div {
-  border:2px solid palevioletred;
+    border: 0px solid palevioletred;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .navbar {
-  width:200px;
-  float:left;
+    width: 200px;
+    float: left;
 }
 
 nav img {
-  width: 100%;
+    width: 100%;
 }
 
 row>div {
-  border: 1px solid red;
+    border: 1px solid red;
 }
- 
+
 .card {
-  display: flex;
+    display: flex;
 }
 
 #footer-info {
-
-  display: flex;
-
+    display: flex;
 }
+
 footer {
-  font-size: 0.75em;
-  font-family: sans-serif;
-  padding: 15px;
-
+    font-size: 0.75em;
+    font-family: sans-serif;
+    padding: 15px;
 }
+
 footer>ul>li {
-  display: inline;
-  padding-right: 1em;
-  left: 0;
+    display: inline;
+    padding-right: 1em;
+    left: 0;
 }
 
 #wikimedia {
-  position: absolute;
-  right: 0;
+    position: absolute;
+    right: 0;
 }
-
