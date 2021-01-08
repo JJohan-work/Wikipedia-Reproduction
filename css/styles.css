@@ -36,6 +36,10 @@ h3 {
     width: 110%;
 }
 
+.sister {
+    color: red;
+}
+
 #rock,
 #capitol,
 #bat,
@@ -76,11 +80,12 @@ h3 {
 
 .green>* {
     background-color: #CEF2E0;
-    font-size: 14px;
 }
 
 .green .alert {
     background-color: #7dfaab;
+    height: 1.5em;
+    padding-top: 0;
 }
 
 .green .card-title,
@@ -96,6 +101,8 @@ h3 {
 
 .blue .alert {
     background-color: #bcd8f7;
+    height: 1.5em;
+    padding-top: 0;
 }
 
 .red>* {
@@ -104,6 +111,8 @@ h3 {
 
 .red .alert {
     background-color: #e5c0f3;
+    height: 1.5em;
+    padding-top: 0;
 }
 
 .defaulttext {
