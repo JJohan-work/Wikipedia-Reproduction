@@ -23,6 +23,7 @@ main {
 #row-1 {
     border: 1px solid rgba(200, 200, 200, 2);
     background-color: whitesmoke;
+    margin-bottom: 5px;
 }
 
 #row-1>.col-6>p,
@@ -31,19 +32,41 @@ h3 {
     color: darkblue;
 }
 
-#bat {
-    float: left;
-    margin: 5px 20px 5px 2px;
-    display: inline-block;
-    text-align: center;
-}
-
 #bat>img {
     width: 110%;
 }
 
+#rock,
+#capitol,
+#bat,
+#fillmore {
+    float: right;
+    display: inline-block;
+    width: 143px;
+}
+
+#rock {
+    margin: 0px 0px 5px 20px;
+}
+
+#bat {
+    float: left;
+    margin: 0px 20px 5px 2px;
+}
+
+#capitol {
+    margin: 0px 18px 5px 20px;
+}
+
+.tinytext {
+    font-size: 12px;
+}
+
+#rock span,
+#capitol span,
 #bat span {
     display: block;
+    width: 100%;
 }
 
 .green>* {
@@ -53,6 +76,29 @@ h3 {
 
 .green .alert {
     background-color: #7dfaab;
+}
+
+.green .card-title,
+.blue .card-title,
+.red .card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.blue>* {
+    background-color: #d8e5f5;
+}
+
+.blue .alert {
+    background-color: #bcd8f7;
+}
+
+.red>* {
+    background-color: #f0e4f5;
+}
+
+.red .alert {
+    background-color: #e5c0f3;
 }
 
 #row-1>.col-6>p {
